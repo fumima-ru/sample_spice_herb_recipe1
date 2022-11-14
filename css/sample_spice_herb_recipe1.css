@@ -23,6 +23,14 @@ a {
 }
 
 /* --#header----------------------- */
+#header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../sample_spice_herb_recipe1.html);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
 /* --ハンバーガーメニュー------------ */
 /* --#mainvisual------------------- */
 /* --#information------------------ */

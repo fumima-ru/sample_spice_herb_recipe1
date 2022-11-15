@@ -18,9 +18,9 @@
     <link href="https: //fonts.googleapis.com/css2? family= Kaisei+Decol:wght@400;700 &family= Zen+クレナイド& display=swap" rel="stylesheet">
 
 
-
     <!--Font Awesome読み込み-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
 
     <!--css読み込み-->
     <link rel="stylesheet" href="css/sample_spice_herb_recipe1.css">
@@ -40,16 +40,60 @@
       </h1>
 
       <ul class="sns">
-        <li><a href="#"><img src="" alt="instagram"></a></li>
-        <li><a href="#"><img src="" alt="twitter"></a></li>
-        <li><a href="#"><img src="" alt="facebook"></a></li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-instagram fa-3x" style="color: rgb(5, 5, 7, 0.6);"></i>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-twitter fa-3x" style="color: rgb(255, 0, 0, 0.6);"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-facebook fa-3x" style="color: rgb(5, 5, 7, 0.6);"></i>
+          </a>
+        </li>
       </ul>
     </header>
 
-    <!--.container----------------------->
-    <div class="container">
       <!--main----------------------------->
-      <main></main>
+      <main>
+        <!--.container----------------------->
+        <div class="container">
+          <div id="search_profile">
+            <div class="search">
+              <!-- 要サイトURLに変更 -->
+              <form action="C:\Users\marum\Documents\プログラミング\ポートフォリオ関連\サンプル・作品\sample_spice_herb_recipe1\sample_spice_herb_recipe1.html" method="get">
+                <input type="search" name="search" placeholder="キーワードを入力">
+                <input type="submit" name="submit" value="検索">
+              </form>
+
+              <div class="btn">
+                <!-- 要リンク先入れる（料理一覧ページ） -->
+                <a href="#">レシピ一覧</a>
+              </div>
+            </div>
+
+            <div class="profile">
+              <div class="profile-left">
+                <img src="img/sample_spice_herb_recipe1_profile_pexels-tim-douglas-6205769.jpg" alt="profile">
+                <p class="profile-name">〇〇〇〇</p>
+              </div>
+
+              <div class="profile-right">
+                <p>カフェ〇〇オーナー、料理研究家</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </main>
       
       <!--#footer-------------------------->
       <footer id="footer" class="wrapper">
@@ -58,3 +102,7 @@
     </div>
   </body>
 </html>
+
+
+<!-- やること -->
+<!-- snsリンク機能させる -->

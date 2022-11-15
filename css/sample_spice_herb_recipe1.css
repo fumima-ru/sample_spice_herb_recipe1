@@ -24,8 +24,14 @@ a {
   text-decoration: none;
 }
 
+.container {
+  margin: 0 30px;
+  max-width: 1400px;
+}
+
 /* --#header----------------------- */
 #header {
+  margin-bottom: 30px;
   width: 100%;
   min-height: 100vh;
   background-image: url(../img/sample_spice_herb_recipe1_mainvisual_pexels-mateusz-feliksik-13428053.jpg);
@@ -52,7 +58,72 @@ a {
 #header span {
   color: rgb(255, 0, 0, 0.6);
 }
-/* --ハンバーガーメニュー------------ */
+
+#header .sns {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#header .sns li {
+  margin-bottom: 10px;
+}
+
+#header .sns li:last-child {
+  margin-bottom: 0;
+}
+
+/* --#search_profile------------ */
+#search_profile {
+  display: flex;
+  margin-bottom: 30px;
+  /* justify-content: space-around; */
+}
+
+#search_profile .search {
+  width: 30%;
+}
+
+#search_profile .search input {
+  display: inline-block;
+  border: solid 1px rgb(5, 5, 7, 0.6);
+  margin-bottom: 30px;
+  padding: 5px;
+  border-radius: 10px;
+} 
+
+#search_profile .search .btn {
+  display: inline-block;
+  /* border: solid 1px rgb(5, 5, 7, 0.6); */
+  padding: 5px;
+  background-color: rgb(255, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+#search_profile .search .btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#search_profile .profile {
+  width: 70%;
+
+}
+
+#search_profile .profile img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#search_profile .profile .profile-name {
+  font-size: 2rem;
+  margin-left: 30px;
+}
+
+#search_profile .profile .profile-right {
+
+}
 /* --#mainvisual------------------- */
 /* --#information------------------ */
 /* --#access----------------------- */
@@ -63,5 +134,8 @@ a {
 /* --レスポンシブ#access------------ */
 /* --レスポンシブ#contact----------- */
 /* --レスポンシブ#footer------------ */
-
 /* --やることリスト----------------- */
+
+/* メモ */
+/* セクションごとmargin-bottom: 30px; */
+/* btn系のborder-radius: 10px; */

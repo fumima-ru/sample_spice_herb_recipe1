@@ -29,6 +29,8 @@ a {
   max-width: 1400px;
 }
 
+
+
 /* --#header----------------------- */
 #header {
   margin-bottom: 30px;
@@ -152,7 +154,25 @@ a {
   line-height: 2;
   margin-top: 50px;
 }
-/* --#mainvisual------------------- */
+
+/* --#recipe------------------- */
+#recipe {
+  margin-bottom: 30px;
+}
+
+#recipe .category-title {
+  font-weight: normal;
+  margin: 30px;
+}
+
+#recipe .slick-area li {
+  width: ;
+}
+
+
+
+
+
 /* --#information------------------ */
 /* --#access----------------------- */
 /* --#contact---------------------- */

@@ -73,18 +73,17 @@ a {
   margin-bottom: 0;
 }
 
-/* --#search_profile------------ */
-#search_profile {
+/* --#search-profile------------ */
+#search-profile {
   display: flex;
   margin-bottom: 30px;
-  /* justify-content: space-around; */
 }
 
-#search_profile .search {
-  width: 30%;
+#search-profile .search {
+  width: 50%;
 }
 
-#search_profile .search input {
+#search-profile .search input {
   display: inline-block;
   border: solid 1px rgb(5, 5, 7, 0.6);
   margin-bottom: 30px;
@@ -92,37 +91,66 @@ a {
   border-radius: 10px;
 } 
 
-#search_profile .search .btn {
-  display: inline-block;
-  /* border: solid 1px rgb(5, 5, 7, 0.6); */
-  padding: 5px;
-  background-color: rgb(255, 0, 0, 0.6);
-  border-radius: 10px;
+#search-profile .search input[type="search"] {
+  width: 70%;
 }
 
-#search_profile .search .btn a {
+#search-profile .search .btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: rgb(255, 0, 0, 0.6);
+  border-radius: 10px;
+  width: 140px;
+}
+
+#search-profile .search .btn::after {
+  content: ">>>";
+  color: #fff;
+  font-size: 0.825rem;
+  font-weight: bold;
+  /* animation: slide 4s infinite linear;
+  animation-direction :normal; */
+}
+
+/* @keyframes slide {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: rgb(255, 0, 0, 0.6);
+  }
+} */
+
+/* #search-profile .search .btn:hover:after {
+  
+  color: #050507;
+} */
+
+#search-profile .search .btn a {
   color: #fff;
   font-weight: bold;
 }
 
-#search_profile .profile {
-  width: 70%;
-
+#search-profile .profile {
+  width: 50%;
+  display: flex;
 }
 
-#search_profile .profile img {
+#search-profile .profile img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
 }
 
-#search_profile .profile .profile-name {
+#search-profile .profile .profile-name {
   font-size: 2rem;
   margin-left: 30px;
 }
 
-#search_profile .profile .profile-right {
-
+#search-profile .profile .profile-right {
+  margin-left: 30px;
+  line-height: 2;
+  margin-top: 50px;
 }
 /* --#mainvisual------------------- */
 /* --#information------------------ */
@@ -139,3 +167,5 @@ a {
 /* メモ */
 /* セクションごとmargin-bottom: 30px; */
 /* btn系のborder-radius: 10px; */
+
+/* レスポンシブ 1300px */

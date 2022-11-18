@@ -162,12 +162,16 @@ a {
 
 #recipe .category-title {
   font-weight: normal;
-  margin: 30px;
+  margin: 0 10px;
 }
 
-/* #recipe .slick-area li {
-  width: ;
+/* #recipe .slick-area {
+  display: flex;
 } */
+
+#recipe .slick-area li {
+  padding-right: 10px;
+}
 
 
 

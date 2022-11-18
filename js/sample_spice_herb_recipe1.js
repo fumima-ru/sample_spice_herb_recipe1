@@ -1,8 +1,8 @@
 $(function() {
   $('.slick-area').slick( {
     autoplay: true,
-    /* arrows: true,
-    dots: true, */
+    dots: true,
+    arrows: false,
     // centerMode: false,
     // Padding: '20px',
     slidesToShow: 5,

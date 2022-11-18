@@ -162,7 +162,8 @@ a {
 
 #recipe .category-title {
   font-weight: normal;
-  margin: 0 10px;
+  margin: 0 20px 20px 20px;
+  text-align: center;
 }
 
 /* #recipe .slick-area {
@@ -173,15 +174,43 @@ a {
   padding-right: 10px;
 }
 
-
-
-
-
 /* --#information------------------ */
-/* --#access----------------------- */
-/* --#contact---------------------- */
-/* --#footer----------------------- */
-/* --レスポンシブ------------------- */
+#recipe .pick-up {
+  margin-bottom: 70px;
+}
+
+/* --.flex-area----------------------- */
+.flex-area {
+  display: flex;
+}
+
+.flex-area li {
+  margin: 0 10px;
+}
+
+
+/* 要下記cssセレクタまとめた方が良い？ */
+/* --.one-dish---------------------- */
+.one-dish {
+  margin-bottom: 70px;
+}
+
+/* --.arrange-menu----------------------- */
+.arrange {
+  margin-bottom: 70px;
+}
+
+/* --.challenge-menu------------------- */
+.special-menu {
+  margin-bottom: 70px;
+}
+
+
+
+
+
+
+
 /* --レスポンシブ#information------- */
 /* --レスポンシブ#access------------ */
 /* --レスポンシブ#contact----------- */

@@ -195,14 +195,18 @@ a {
   margin-bottom: 70px;
 }
 
-/* --.arrange-menu----------------------- */
-.arrange {
+/* --.main----------------------- */
+.main-dish {
   margin-bottom: 70px;
 }
 
 /* --.challenge-menu------------------- */
-.special-menu {
+.staple-food {
   margin-bottom: 70px;
+}
+
+.flex-area img {
+  height: 300px;
 }
 
 

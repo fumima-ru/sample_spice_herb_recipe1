@@ -31,15 +31,16 @@ a {
 
 
 
-/* --#header----------------------- */
+/* --#header----------------1570------- */
 #header {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   width: 100%;
   min-height: 100vh;
   background-image: url(../img/sample_spice_herb_recipe1_mainvisual_pexels-mateusz-feliksik-13428053.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-position: 44% 44%;
   position: relative;
 }
 
@@ -48,13 +49,12 @@ a {
   position: absolute;
   /* left: calc(50% - 290px);
   top: calc(50% - 37px); */
-  bottom: 10px;
-  left: 30px;
+  bottom: 25px;
+  left: 25px;
   color: rgb(5, 5, 7, 0.6);
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   padding: 10px 15px 0 15px;
-  /* font-weight: normal; */
 }
 
 #header span {
@@ -63,8 +63,8 @@ a {
 
 #header .sns {
   position: absolute;
-  right: 10px;
-  bottom: 10px;
+  right: 25px;
+  bottom: 75px;
 }
 
 #header .sns li {
@@ -75,10 +75,15 @@ a {
   margin-bottom: 0;
 }
 
+#header .sns li:hover {
+  /* opacity: 0.7; */
+  rotate: 45deg;
+}
+
 /* --#search-profile------------ */
 #search-profile {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 #search-profile .search {
@@ -97,6 +102,15 @@ a {
   width: 70%;
 }
 
+#search-profile .search input[type="submit"] {
+  background-color: rgb(5, 5, 7, 0.6);
+  color: #fff;
+}
+
+#search-profile .search input[type="submit"]:hover {
+  opacity: 0.7;
+}
+
 #search-profile .search .btn {
   display: inline-block;
   padding: 5px 10px;
@@ -105,32 +119,19 @@ a {
   width: 140px;
 }
 
+#search-profile .search .btn:hover {
+  opacity: 0.7;
+}
+
 #search-profile .search .btn::after {
   content: ">>>";
   color: #fff;
   font-size: 0.825rem;
   font-weight: bold;
-  /* animation: slide 4s infinite linear;
-  animation-direction :normal; */
 }
-
-/* @keyframes slide {
-  0% {
-    color: #fff;
-  }
-  50% {
-    color: rgb(255, 0, 0, 0.6);
-  }
-} */
-
-/* #search-profile .search .btn:hover:after {
-  
-  color: #050507;
-} */
 
 #search-profile .search .btn a {
   color: #fff;
-  font-weight: bold;
 }
 
 #search-profile .profile {
@@ -145,8 +146,8 @@ a {
 }
 
 #search-profile .profile .profile-name {
-  font-size: 2rem;
-  margin-left: 30px;
+  font-size: 25px;
+  margin-left: 35px;
 }
 
 #search-profile .profile .profile-right {
@@ -157,7 +158,7 @@ a {
 
 /* --#recipe------------------- */
 #recipe {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 #recipe .category-title {
@@ -166,12 +167,18 @@ a {
   text-align: center;
 }
 
-/* #recipe .slick-area {
-  display: flex;
-} */
-
 #recipe .slick-area li {
   padding-right: 10px;
+}
+
+#recipe .slick-area li:hover {
+  opacity: 0.7;
+}
+
+#recipe .slick-area li p {
+  margin: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 /* --#information------------------ */
@@ -182,10 +189,21 @@ a {
 /* --.flex-area----------------------- */
 .flex-area {
   display: flex;
+  justify-content: center;
 }
 
 .flex-area li {
   margin: 0 10px;
+}
+
+.flex-area li:hover {
+  opacity: 0.7;
+}
+
+.flex-area li p {
+  margin: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 
@@ -209,20 +227,67 @@ a {
   height: 300px;
 }
 
+/* --.bottom_search-btn------- */
+.bottom_search-btn {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(244, 91, 91);
+  border-radius: 10px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  text-align: center;
+  padding: 3px 0;
+}
+
+.bottom_search-btn:hover {
+  opacity: 0.7;
+}
+
+.bottom_search-btn::after {
+  content: ">>>";
+  color: #FFF;
+  font-size: 0.825rem;
+  font-weight: bold;
+  position: fixed;
+  right: 35px;
+  bottom: 30px;
+}
+
+.bottom_search-btn a {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  width: 120px;
+  height: 30px;
+}
+
+
+/* --#footer------- */
+#footer {
+  text-align: center;
+  margin-bottom: 25px;
+}
 
 
 
 
 
 
-/* --レスポンシブ#information------- */
+
+
+
+
+
+
+
 /* --レスポンシブ#access------------ */
 /* --レスポンシブ#contact----------- */
 /* --レスポンシブ#footer------------ */
 /* --やることリスト----------------- */
 
 /* メモ */
-/* セクションごとmargin-bottom: 30px; */
+/* セクションごとmargin-bottom: 50px; */
 /* btn系のborder-radius: 10px; */
 
 /* レスポンシブ 1300px */

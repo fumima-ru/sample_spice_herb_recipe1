@@ -120,9 +120,9 @@ a {
   width: 140px;
 }
 
-#search-profile .search .btn:hover {
+/* #search-profile .search .btn:hover {
   opacity: 0.7;
-}
+} */
 
 #search-profile .search .btn::after {
   content: ">>>";
@@ -239,10 +239,6 @@ a {
   padding: 3px 0;
 }
 
-.bottom_search-btn:hover {
-  opacity: 0.7;
-}
-
 .bottom_search-btn::after {
   content: ">>>";
   color: #FFF;
@@ -286,6 +282,8 @@ a {
 /* --やることリスト----------------- */
 
 /* メモ */
+
+/* btnのhover考える */
 /* セクションごとmargin-bottom: 50px; */
 /* btn系のborder-radius: 10px; */
 

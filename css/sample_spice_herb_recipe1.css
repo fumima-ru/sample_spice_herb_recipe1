@@ -13,6 +13,7 @@ body {
 
 img {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 li {
@@ -31,7 +32,7 @@ a {
 
 
 
-/* --#header----------------1570------- */
+/* --#header----------------------- */
 #header {
   margin-bottom: 50px;
   width: 100%;
@@ -58,7 +59,7 @@ a {
 }
 
 #header span {
-  color: rgb(255, 0, 0, 0.6);
+  color: rgb(244, 91, 91);
 }
 
 #header .sns {
@@ -114,7 +115,7 @@ a {
 #search-profile .search .btn {
   display: inline-block;
   padding: 5px 10px;
-  background-color: rgb(255, 0, 0, 0.6);
+  background-color: rgb(244, 91, 91);
   border-radius: 10px;
   width: 140px;
 }
@@ -206,8 +207,6 @@ a {
   text-decoration: underline;
 }
 
-
-/* 要下記cssセレクタまとめた方が良い？ */
 /* --.one-dish---------------------- */
 .one-dish {
   margin-bottom: 70px;

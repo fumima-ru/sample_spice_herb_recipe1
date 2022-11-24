@@ -36,11 +36,21 @@ a {
   display: flex;
   align-items: center;
   margin: 50px 50px;
+  
+}
+
+#header span {
+  color: rgb(244, 91, 91);
+}
+
+#header h1 {
+  font-size: 3rem;
+  color: rgb(5, 5, 7, 0.6);
 }
 
 #header .btn {
   background-color: rgb(244, 91, 91);
-  padding: 5px 10px;
+  padding: 7px 20px;
   border-radius: 10px;
   margin-left: 50px;
 }
@@ -68,6 +78,59 @@ a {
 .grid-area .item p {
   margin-top: 7px;
   text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination li {
+  margin: 0 15px;
+}
+
+.pagination .page-1 {
+  color: rgb(244, 91, 91);
+  /* font-weight: bold; */
+  font-size: 1.25rem;
+  padding: 5px 10px 5px 10px;
+  border: solid 1px;
+  align-items: center;
+}
+
+.pagination .page-2 {
+  color: rgb(244, 91, 91);
+  /* font-weight: bold; */
+  font-size: 1.25rem;
+  padding: 5px 10px 5px 10px;
+  border: solid 1px;
+  align-items: center;
+}
+
+.pagination .page-2 a {
+  color: rgb(244, 91, 91);
+}
+
+/* --.to-top------- */
+.to-top {
+  width: 140px;
+  height: 30px;
+  background-color: rgb(244, 91, 91);
+  border-radius: 10px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  text-align: center;
+  padding: 3px 10px;
+}
+
+.to-top a {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  width: 120px;
+  height: 30px;
 }
 
 

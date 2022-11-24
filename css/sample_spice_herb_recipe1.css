@@ -228,7 +228,7 @@ a {
 
 /* --.bottom_search-btn------- */
 .bottom_search-btn {
-  width: 150px;
+  width: 115px;
   height: 30px;
   background-color: rgb(244, 91, 91);
   border-radius: 10px;
@@ -237,16 +237,6 @@ a {
   bottom: 25px;
   text-align: center;
   padding: 3px 0;
-}
-
-.bottom_search-btn::after {
-  content: ">>>";
-  color: #FFF;
-  font-size: 0.825rem;
-  font-weight: bold;
-  position: fixed;
-  right: 35px;
-  bottom: 30px;
 }
 
 .bottom_search-btn a {

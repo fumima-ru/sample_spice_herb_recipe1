@@ -108,6 +108,7 @@ a {
   align-items: center;
 }
 
+.pagination .page-1 a,
 .pagination .page-2 a {
   color: rgb(244, 91, 91);
 }
@@ -133,5 +134,16 @@ a {
   height: 30px;
 }
 
+/* sample_spice_herb_recipe1_recipe_page.css */
+#recipe-page-item .flex {
+  display: flex;
+  margin: 50px;
+}
 
-/* sample_spice_herb_recipe1-recipe-page.css */
+#recipe-page-item .recipe-page-recipe {
+  margin-left: 50px;
+}
+
+#recipe-page-item .content-title {
+  margin-top: 20px;
+}

@@ -48,8 +48,6 @@ a {
 #header h1 {
   font-size: 3rem;
   position: absolute;
-  /* left: calc(50% - 290px);
-  top: calc(50% - 37px); */
   bottom: 25px;
   left: 25px;
   color: rgb(5, 5, 7, 0.6);
@@ -77,7 +75,6 @@ a {
 }
 
 #header .sns li:hover {
-  /* opacity: 0.7; */
   rotate: 45deg;
 }
 
@@ -155,6 +152,10 @@ a {
   margin-left: 30px;
   line-height: 2;
   margin-top: 50px;
+}
+
+#search-profile .profile .profile-right-responsive {
+  display: none;
 }
 
 /* --#recipe------------------- */
@@ -254,7 +255,92 @@ a {
   margin-bottom: 25px;
 }
 
+/* 1180 スマホレスポンシブ */
+@media screen and (max-width: 1180px) {
+  #header {
+    background-position: 29% 29%;
+  }
 
+  #header h1 {
+    font-size: 1.25rem;
+    bottom: 10px;
+    left: 10px;
+    padding: 8px 10px 5px 10px;
+  }
+
+  #header .sns {
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    display: flex;
+    
+  }
+
+  #header .sns li {
+    margin: 0 5px 5px;
+  }
+
+  #header .sns li a i {
+    font-size: 35px;
+
+  }
+
+  #search-profile {
+    flex-direction: column;
+  }
+
+  #search-profile .search {
+    width: 100%;
+  }
+
+  #search-profile .profile {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #search-profile .search input {
+    margin-bottom: 15px;
+  }
+
+  #search-profile .search .btn {
+    margin-bottom: 50px;
+  }
+
+  #search-profile .profile img {
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+
+  #search-profile .profile .profile-name {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  #search-profile .profile .profile-right {
+    display: none;
+  }
+
+  #search-profile .profile .profile-right-responsive {
+    display: block;
+    text-align: center;
+    /* margin-left: 0; */
+    line-height: 1.5;
+    margin-top: 0;
+  }
+
+  #search-profile .profile .profile-right-responsive p:first-child {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+
+
+/*  */
+
+  .bottom_search-btn {
+    display: none;
+  }
+}
 
 
 

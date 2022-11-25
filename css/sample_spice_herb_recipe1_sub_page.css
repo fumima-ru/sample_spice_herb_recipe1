@@ -83,7 +83,7 @@ a {
 .pagination {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 20px 0 50px 0;
 }
 
 .pagination li {
@@ -140,10 +140,39 @@ a {
   margin: 50px;
 }
 
+#recipe-page-item .flex img {
+  height: 100%;
+}
+
 #recipe-page-item .recipe-page-recipe {
   margin-left: 50px;
 }
 
 #recipe-page-item .content-title {
   margin-top: 20px;
+}
+
+#recipe-page-item .ingredient-dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#recipe-page-item .ingredient-dl dt {
+  width: 80%;
+  border-bottom: dotted 1px rgb(5, 5, 7, 0.6);
+  padding: 5px 0;
+}
+
+#recipe-page-item .ingredient-dl dd {
+  width: 20%;
+  border-bottom: dotted 1px rgb(5, 5, 7, 0.6);
+  padding: 5px 0;
+  text-align: right;
+}
+
+#recipe-page-item .making-ol li {
+  margin-left: 20px;
+  border-bottom: dotted 1px rgb(5, 5, 7, 0.6);
+  padding: 5px 0;
+  list-style: decimal;
 }

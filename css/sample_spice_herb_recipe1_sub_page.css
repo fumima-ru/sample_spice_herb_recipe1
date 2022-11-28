@@ -56,6 +56,7 @@ a {
 }
 
 #header .btn a {
+  display: block;
   color: #fff;
 }
 
@@ -181,4 +182,33 @@ a {
   border-bottom: dotted 1px rgb(5, 5, 7, 0.6);
   padding: 5px 0;
   list-style: decimal;
+}
+
+/* スマホレスポンシブ 800*/
+@media screen and (max-width: 800px) {
+  /* --#header レスポンシブ------------------- */
+  #header {
+    flex-direction: column-reverse;
+  }
+
+  #header h1 {
+    font-size: 1.25rem;
+    color: rgb(5, 5, 7, 0.6);
+  }
+  
+  #header .btn {
+    padding: 0 10px;
+    margin-left: 0;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+
+  #header .btn a {
+    display: block;
+    font-size: 1rem;
+
+  }
+  /* ヘッダーのアンカータグの大きさ親要素に合わす
+   */
 }

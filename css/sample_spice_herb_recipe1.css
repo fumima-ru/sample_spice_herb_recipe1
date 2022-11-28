@@ -169,6 +169,11 @@ a {
   text-align: center;
 }
 
+#recipe .pick-up {
+  margin-bottom: 70px;
+}
+
+/* --..slick-area----------------------- */
 #recipe .slick-area li {
   padding-right: 10px;
 }
@@ -181,11 +186,6 @@ a {
   margin: 10px;
   text-align: center;
   text-decoration: underline;
-}
-
-/* --#information------------------ */
-#recipe .pick-up {
-  margin-bottom: 70px;
 }
 
 /* --.flex-area----------------------- */
@@ -218,7 +218,7 @@ a {
   margin-bottom: 70px;
 }
 
-/* --.challenge-menu------------------- */
+/* --.staple-food------------------- */
 .staple-food {
   margin-bottom: 70px;
 }
@@ -248,6 +248,9 @@ a {
   height: 30px;
 }
 
+.to-top {
+  display: none;
+}
 
 /* --#footer------- */
 #footer {
@@ -255,8 +258,9 @@ a {
   margin-bottom: 25px;
 }
 
-/* 1180 スマホレスポンシブ */
-@media screen and (max-width: 1180px) {
+/* スマホレスポンシブ 800*/
+@media screen and (max-width: 800px) {
+  /* --#header レスポンシブ------------------- */
   #header {
     background-position: 29% 29%;
   }
@@ -285,6 +289,7 @@ a {
 
   }
 
+  /* --#search-profile レスポンシブ------------------- */
   #search-profile {
     flex-direction: column;
   }
@@ -323,7 +328,6 @@ a {
   #search-profile .profile .profile-right-responsive {
     display: block;
     text-align: center;
-    /* margin-left: 0; */
     line-height: 1.5;
     margin-top: 0;
   }
@@ -333,12 +337,52 @@ a {
     font-weight: bold;
   }
 
+  /* --#recipe レスポンシブ------------------- */
+  .flex-area {
+    flex-direction: column;
+    align-items: center;
+  }
 
-
-/*  */
+  .staple-food {
+    margin-bottom: 0;
+  }
 
   .bottom_search-btn {
     display: none;
+  }
+
+  .to-top {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(244, 91, 91);
+    border: solid 4px rgb(244, 91, 91);
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    /* color: rgba(255, 255, 255, 0.7); */
+  }
+
+  .to-top::after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    position: relative;
+    left: 11px;
+    bottom: 11px;
+    pointer-events: none;
+    /* z-index: 15; */
+  }
+
+  .to-top a {
+    /* display: block; */
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
   }
 }
 

@@ -71,8 +71,15 @@ a {
   margin-bottom: 25px;
 }
 
+
+
+
+
+
+
+
+
 /* sample_spice_herb_recipe1_all_menu_page.css */
-/* --main------- */
 .grid-area {
   margin: 20px;
   display: grid;
@@ -128,8 +135,6 @@ a {
   line-height: 20px;
 }
 
-.pagination 
-
 /* --.to-top------- */
 .to-top {
   display: block;
@@ -162,6 +167,13 @@ a {
   height: 50px;
   position: fixed;
 }
+
+
+
+
+
+
+
 
 /* sample_spice_herb_recipe1_recipe_page.css */
 #recipe-page-item .flex {
@@ -205,6 +217,13 @@ a {
   padding: 5px 0;
   list-style: decimal;
 }
+
+
+
+
+
+
+
 
 /* スマホレスポンシブ 800*/
 @media screen and (max-width: 920px) {
@@ -264,8 +283,4 @@ a {
     margin: 60px 0 20px 0;
   }
 
-
-  /* ヘッダーのアンカータグの大きさ親要素に合わす
-  
-  */
 }

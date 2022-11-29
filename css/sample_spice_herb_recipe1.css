@@ -106,30 +106,26 @@ a {
 }
 
 #search-profile .search input[type="submit"]:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 #search-profile .search .btn {
-  display: inline-block;
-  padding: 5px 10px;
+  display: block;
+  width: 100px;
   background-color: rgb(244, 91, 91);
   border-radius: 10px;
-  width: 140px;
 }
 
-/* #search-profile .search .btn:hover {
-  opacity: 0.7;
-} */
-
-#search-profile .search .btn::after {
-  content: ">>>";
-  color: #fff;
-  font-size: 0.825rem;
-  font-weight: bold;
+#search-profile .search .btn:hover {
+  opacity: 0.8;
 }
 
 #search-profile .search .btn a {
+  display: block;
+  width: 100px;
   color: #fff;
+  line-height: 2;
+  text-align: center;
 }
 
 #search-profile .profile {
@@ -227,27 +223,34 @@ a {
 
 /* --.bottom_search-btn------- */
 .bottom_search-btn {
-  width: 115px;
-  height: 30px;
+  display: block;
   background-color: rgb(244, 91, 91);
   border-radius: 10px;
   position: fixed;
   right: 25px;
   bottom: 25px;
-  text-align: center;
-  padding: 3px 0;
+}
+
+.bottom_search-btn:hover {
+  opacity: 0.8;
 }
 
 .bottom_search-btn a {
+  display: block;
+  width: 115px;
   color: #fff;
   font-size: 16px;
-  display: block;
-  width: 120px;
-  height: 30px;
+  line-height: 2;
+  padding: 3px 0;
+  text-align: center;
 }
 
 .to-top {
   display: none;
+}
+
+.to-top:hover {
+  opacity: 0.8;
 }
 
 /* --#footer------- */
@@ -360,33 +363,6 @@ a {
     display: none;
   }
 
-  .to-top {
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(244, 91, 91);
-    border-radius: 50%;
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-  }
-
-  .to-top::after {
-    content: "";
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid #fff;
-    position: relative;
-    left: 15px;
-    bottom: 8px;
-    pointer-events: none;
-  }
-
-  .to-top a {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-  }
 }
 
 

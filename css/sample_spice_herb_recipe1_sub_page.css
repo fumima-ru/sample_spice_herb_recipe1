@@ -55,6 +55,10 @@ a {
   margin-left: 50px;
 }
 
+#header .btn:hover {
+  opacity: 0.8;
+}
+
 #header .btn a {
   display: block;
   color: #fff;
@@ -67,13 +71,17 @@ a {
 }
 
 /* sample_spice_herb_recipe1_all_menu_page.css */
-/* --main------------------------- */
+/* --main------- */
 .grid-area {
   margin: 20px;
   display: grid;
   gap: 20px;
 
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.grid-area .item:hover {
+  opacity: 0.8;
 }
 
 .grid-area .item p {
@@ -117,28 +125,34 @@ a {
 /* --.to-top------- */
 .to-top {
   display: block;
-  width: 140px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background-color: rgb(244, 91, 91);
-  border-radius: 10px;
+  border-radius: 50%;
   position: fixed;
-  right: 25px;
-  bottom: 25px;
-  text-align: center;
-  padding: 3px 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.to-top:hover {
+  opacity: 0.8;
+}
+
+.to-top::after {
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #fff;
+  position: relative;
+  left: 15px;
+  bottom: 8px;
+  pointer-events: none;
 }
 
 .to-top a {
-  color: #fff;
-  font-size: 16px;
-  text-align: center;
-  padding: 4px 0;
-  display: block;
+  width: 50px;
+  height: 50px;
   position: fixed;
-  right: 25px;
-  bottom: 25px;
-  width: 140px;
-  height: 30px;
 }
 
 /* sample_spice_herb_recipe1_recipe_page.css */
@@ -185,21 +199,22 @@ a {
 }
 
 /* スマホレスポンシブ 800*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
   /* --#header レスポンシブ------------------- */
   #header {
     flex-direction: column-reverse;
   }
 
   #header h1 {
-    font-size: 1.25rem;
+    font-size: 1.475rem;
     color: rgb(5, 5, 7, 0.6);
+    margin-top: 30px;
   }
   
   #header .btn {
     padding: 0 10px;
     margin-left: 0;
-    position: fixed;
+    position: absolute;
     top: 10px;
     right: 10px;
   }
@@ -209,6 +224,43 @@ a {
     font-size: 1rem;
 
   }
+
+  /* スマホレスポンシブ sample_spice_herb_recipe_all_menu_page.css */
+  .grid-area .item p {
+    margin-top: 0;
+  }
+
+  /* スマホレスポンシブ sample_spice_herb_recipe1_recipe_page.css */
+  #recipe-page-item .flex {
+    flex-direction: column;
+    margin: 50px 20px 80px 20px;
+  }
+
+  #recipe-page-item .flex img {
+    width: 100%;
+  }
+
+  #recipe-page-item .recipe-page-recipe {
+    margin-left: 0;
+  }
+
+  #recipe-page-item .recipe-page-recipe p {
+    text-align: center;
+  }
+
+  #recipe-page-item .cooking-name {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0 10px 0;
+  }
+
+  #recipe-page-item .content-title {
+    font-size: 1.25rem;
+    margin: 60px 0 20px 0;
+  }
+
+
   /* ヘッダーのアンカータグの大きさ親要素に合わす
-   */
+  
+  */
 }

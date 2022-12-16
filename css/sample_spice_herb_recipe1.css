@@ -274,7 +274,7 @@ a {
 
   #header h1 {
     font-size: 1.25rem;
-    bottom: 10px;
+    bottom: 80px;
     left: 10px;
     padding: 8px 10px 5px 10px;
   }
@@ -282,7 +282,7 @@ a {
   #header .sns {
     position: absolute;
     left: 10px;
-    bottom: 50px;
+    bottom: 130px;
     display: flex;
     
   }

@@ -143,8 +143,8 @@ a {
   background-color: rgb(244, 91, 91);
   border-radius: 50%;
   position: fixed;
-  right: 10px;
-  bottom: 10px;
+  right: 15px;
+  bottom: 15px;
 }
 
 .to-top:hover {
@@ -157,8 +157,10 @@ a {
   border-right: 10px solid transparent;
   border-bottom: 15px solid #fff;
   position: relative;
-  left: 15px;
-  bottom: 8px;
+  left: 30%;
+  bottom: 13%;
+  /* left: 15px;
+  bottom: 8px; */
   pointer-events: none;
 }
 

@@ -107,29 +107,13 @@ a {
   margin: 0 15px;
 }
 
-.pagination .current-page {
-  background-color: rgb(244, 91, 91);
-  color: #fff;
-  font-size: 1.25rem;
-  padding: 5px 10px 5px 10px;
-}
-
-.pagination .page-1 {
-  background-color: rgb(244, 91, 91);
-  color: #fff;
-  font-size: 1.25rem;
-}
-
-.pagination .page-2 {
-  background-color: rgb(244, 91, 91);
-  color: #fff;
-  font-size: 1.25rem;
-}
-
 .pagination .page-1 a,
-.pagination .page-2 a {
+.pagination .page-2 a,
+.pagination .current-page {
   display: block;
+  font-size: 1.25rem;
   color: #fff;
+  background-color: rgb(244, 91, 91);
   padding: 10px 10px 5px 10px;
   height: 40px;
   line-height: 20px;
